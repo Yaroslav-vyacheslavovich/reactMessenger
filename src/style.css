@@ -2,13 +2,16 @@ body{
     background-color: blueviolet;
 }
 
-.element{
-    color: green;
-}
-
-.field{
+.messenger__field{
     background-color: honeydew;
     min-width: 300px;
     height: 300px;
     overflow: scroll;
+}
+
+.messenger__input{
+ 
+}
+.messenger__button{
+    color:red;
 }

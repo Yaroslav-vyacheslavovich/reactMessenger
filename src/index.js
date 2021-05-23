@@ -1,13 +1,12 @@
 import "./style.css"
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MessageField from "./components/MessageField.jsx"
-
+import Layout from "./components/Layout.jsx";
 
 
 
  ReactDOM.render(
-    <MessageField />,
+    <Layout/>,
    document.getElementById('root'),
 );
 

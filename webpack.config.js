@@ -58,7 +58,11 @@ module.exports = {
             }
             ]
             }
-        ]
+        ],
+        // resolve: {
+        //     modules: [`${__dirname}/src`, 'node_modules'],
+        //     extensions: ['.jsx'],
+        //  },
     },
     devServer: {
         historyApiFallback: true,
